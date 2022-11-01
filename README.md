@@ -16,7 +16,7 @@ All-Human-Accessible-Website: Een opdracht om een website toegankelijk te maken 
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-![Screenshot (34)](https://user-images.githubusercontent.com/106448490/199242633-4d3e9cd6-9434-4db2-8833-8a4849b4f2e7.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/106448490/199243050-f8b511c4-72f0-4b0e-ad37-25d445fb3f6e.png)
 
 
 Bekijk hier de website:
