@@ -2,6 +2,7 @@
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+All-Human-Accessible-Website: Een opdracht om een website toegankelijk te maken voor iedereen!
 
 ## Inhoudsopgave
 
@@ -15,9 +16,16 @@
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
+![Screenshot (34)](https://user-images.githubusercontent.com/106448490/199242633-4d3e9cd6-9434-4db2-8833-8a4849b4f2e7.png)
+
+
+Bekijk hier de website:
+https://ralphkocken.github.io/all-human-accessible-website/
+
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
+Voor deze opdracht heb ik gebruikt gemaakt van de lighthouse tool. Hiermee is de accessibility van de website getest. Ook heb ik met de software van NVDA de mogelijkheid om de website met een screenreader te bezoeken getest.
 
 
 ## Bronnen
