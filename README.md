@@ -17,7 +17,10 @@ All-Human-Accessible-Website: Een opdracht om een website toegankelijk te maken 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 Wanneer websites goed geprogrameerd zijn, kunnen mensen met beperkingen deze makkelijker gebruiken. Helaas zijn er erg veel websites die niet goed toegankelijk zijn voor deze mensen. Met deze opdracht heb ik mijn website toegankelijk gemaakt. De site is met het toetsenbord te bedienen en ook een screenreader is bruikbaar. 
-![Screenshot (34)](https://user-images.githubusercontent.com/106448490/199243050-f8b511c4-72f0-4b0e-ad37-25d445fb3f6e.png)
+![Screenshot (34)]
+
+
+(https://user-images.githubusercontent.com/106448490/199243050-f8b511c4-72f0-4b0e-ad37-25d445fb3f6e.png)
 
 
 Bekijk hier de website:
