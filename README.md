@@ -32,6 +32,9 @@ Voor deze opdracht heb ik gebruikt gemaakt van de lighthouse tool. Hiermee is de
 
 ## Bronnen
 
+https://www.a11yproject.com/
+
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
