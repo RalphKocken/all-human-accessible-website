@@ -16,7 +16,7 @@ All-Human-Accessible-Website: Een opdracht om een website toegankelijk te maken 
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-Wanneer websites goed geprogrameerd zijn, kunnen mensen met beperkingen deze makkelijker gebruiken. Helaas zijn er erg veel websites die niet goed toegankelijk zijn voor deze mensen. Met deze opdracht heb is de de website van de stekjesbieb toegankelijk gemaakt. De site is met het toetsenbord te bedienen en ook een screenreader is bruikbaar. 
+Wanneer websites goed geprogrameerd zijn, kunnen mensen met beperkingen deze makkelijker gebruiken. Helaas zijn er erg veel websites die niet goed toegankelijk zijn voor deze mensen. Met deze opdracht heb is de website van de stekjesbieb toegankelijk gemaakt. De site is met het toetsenbord te bedienen en ook een screenreader is bruikbaar. 
 
 De screenreader van NVDA:
 
