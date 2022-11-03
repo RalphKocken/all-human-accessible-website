@@ -26,7 +26,7 @@ https://www.nvaccess.org/download/
 
 
 Bekijk hier de website:
-
+https://ralphkocken.github.io/all-human-accessible-website/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
