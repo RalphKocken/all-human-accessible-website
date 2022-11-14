@@ -17,7 +17,7 @@ body{
     line-height: 140%;
 }
 
-.buurtcampusimg{
+.buurtcampus_topleft_logo{
     margin-top: 20px;
     margin-left: 1em;
 }
@@ -31,7 +31,7 @@ header{
     color:#333467;
 }
                     
-header h1{
+header > h1{
     font-family: BuurtCampus;
     display: flex;
     flex-direction: column;
@@ -41,12 +41,29 @@ header h1{
     text-align: center;
 }
 
-header img{
+.frontpage_stekjesbieb_img{
     width: 100%;
     max-width: 35em;
 }
 
-#steklogo{
+header > article > button{
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    border: none;
+    height: 3em;
+    background-color: #8abe53;
+    border-radius: 1em;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+header > article > button:hover{
+    opacity: 80%;
+}
+
+#titel_logo{
     width: 1.5em;
 }
 
@@ -131,6 +148,12 @@ dialog{
     max-width: 30em;
     padding: 0;
     background-color: #333467;
+    height: 35em;
+}
+
+.input_stekje_aanmelden{
+    width: 20em;
+    margin-left: 10em;
 }
 
 .stekdialog{
@@ -145,12 +168,13 @@ dialog{
     border: none;
 }
 
-.stekdialog > button{
+.dialog_terug_knop{
     background-color: transparent;
     border: none;
     margin-left: 90%;
 }
-.stekdialog button img{
+
+.dialogbutton > img{
     width: 30px;
 }
 
@@ -167,6 +191,10 @@ dialog::backdrop{
     width: 100%;
 }
 
+.dialog_stekje_aanmelden{
+    height: 30em;
+}
+
 section > ul{
     color: white;
 }
@@ -178,6 +206,7 @@ section > ul{
     row-gap: 1em;
     font-family: Arial, Helvetica, sans-serif;
     color:#333467;
+    margin-bottom: 3em;
 }
 
 .content > article{
@@ -188,6 +217,18 @@ section > ul{
 .content h2{
     text-align: center;
     margin: 1em;
+}
+
+#buurtcampus_googlemaps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buurtcampus_googlemaps > iframe{
+    max-width: 700px;
 }
 
 footer{
@@ -288,11 +329,16 @@ footer img{
     }
     
     dialog::backdrop{
-        opacity: 70%;
+        opacity: 90%;
         background-color: black;
     }
     
     .stekdialog > img{
         width: 100%;
+    }
+
+    #buurtcampus_googlemaps > iframe{
+        max-width: 700px;
+        height: 350px;
     }
 }

@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts.js"></script>
-    <title>Stekjesbieb</title>
+    <title>Plant Swap</title>
 </head>
 
 <body>
-    <img class="buurtcampusimg" src="assets/BuurtcampusOostLogo.svg" alt="stekjesbieblogo">
+    <img class="buurtcampus_topleft_logo" src="assets/BuurtcampusOostLogo.svg" alt="Buurtcampus">
     
     <header>
-        <h1><img id="steklogo" src="assets\blaadjes.png" alt="titellogo">Plantswap</h1>
-        <img src="assets/stekjesbieb.jpg" alt="Stekjesbieb">
+        <h1><img id="titel_logo" src="assets\blaadjes.png" alt="titellogo">Plantswap</h1>
+        <img src="assets/stekjesbieb.jpg" class="frontpage_stekjesbieb_img" alt="Stekjesbieb">
 
-        <article>
+        <article class="header_article">
             <h2>Hoe werkt het?</h2>
             <p>Heb jij een of meerdere plantenstekjes over en zou je die graag willen ruilen voor een nieuw plantje?</p>
             <br>    
             <p>Meld je stekje hier aan en ruil ‘m via de app. Schrijf de Latijnse naam van je plant en eventuele verzorgingstips op een labeltje en neem ‘m mee naar de OBA Linnaeusstraat in Amsterdam.  
             </p>
-            <br>
-            <h2>Wanneer?</h2>
-            <p>De PlantSwap kast wordt officieel geopend met een PlantSwap Party in maart 2023.</p>
-        </article>
-                                      
+            <button onclick="dialog_stekje_aanmelden.showModal()">Stekje aanmelden</button>
+                <dialog id="dialog_stekje_aanmelden">
+                    <form method="dialog">
+                        <button class="dialog_terug_knop"><img src="assets/greenX.png" alt="terugknop"></button>
+                        <h2>Stekje aanmelden</h2>
+                        <section class="input_stekje_aanmelden">
+                            <input type="text" placeholder="Naam">
+                            <input type="text" placeholder="Wat voor stekje biedt u aan?">
+                            <input type="text" placeholder="Welk stekje wilt u?">
+                            <input type="submit" value="Let's do it">
+                        </section>
+                    </form>
+                </dialog>
+        </article>                                  
     </header>
 
     <main> 
@@ -41,15 +49,15 @@
                     <dialog id="dialog">
                         <form method="dialog">
                             <div class="stekdialog">
-                                <button aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
-                                <h3>Plantnaam</h3>
+                                <button class="dialogbutton" aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
+                                <h3>Orchidee</h3>
                                 <img src="assets/stekje1.jpeg" alt="Orchidee">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium.</p>
                             </div>  
                         </form>
                     </dialog>
 
-                    <button class="dialogbtn" onclick="dialog.showModal()" aria-label="meer info over de orchidee"><img src="assets/logo-no-background.png" alt="meerinfo"></button>
+                    <button class="dialogbtn" onclick="dialog.showModal()" aria-label="meer info over de orchidee"><img src="assets/logo-no-background.png" alt="meer info"></button>
                 </div>
                 
                 <div>
@@ -58,14 +66,14 @@
                     <dialog id="dialog2">
                         <form method="dialog">
                             <div class="stekdialog">
-                                <button aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
+                                <button class="dialogbutton" aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
                                 <h3>Kale Jonker</h3>
                                 <img src="assets/stekje2.webp" alt="kale jonker">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium.</p>
                             </div>  
                         </form>
                     </dialog>
-                    <button class="dialogbtn" onclick="dialog2.showModal()" aria-label="meer info over de jale jonker"><img src="assets/logo-no-background.png" alt="meerinfo"></button>
+                    <button class="dialogbtn" onclick="dialog2.showModal()" aria-label="meer info over de jale jonker"><img src="assets/logo-no-background.png" alt="meer info"></button>
                 </div> 
 
                 <div>
@@ -74,14 +82,14 @@
                     <dialog id="dialog3">
                         <form method="dialog">
                             <div class="stekdialog">
-                                <button aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
-                                <h3>Plantnaam</h3>
-                                <img src="assets/stekje3.webp" alt="Plantnaam">
+                                <button class="dialogbutton" aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
+                                <h3>Duifkruid</h3>
+                                <img src="assets/stekje3.webp" alt="Duifkruid">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium.</p>
                             </div>  
                         </form>
                     </dialog>
-                    <button class="dialogbtn" onclick="dialog3.showModal()" aria-label="meer info over de duifkruid"><img src="assets/logo-no-background.png" alt="meerinfo"></button>
+                    <button class="dialogbtn" onclick="dialog3.showModal()" aria-label="meer info over de duifkruid"><img src="assets/logo-no-background.png" alt="meer info"></button>
                 </div> 
 
                 <div>
@@ -90,14 +98,14 @@
                     <dialog id="dialog4">
                         <form method="dialog">
                             <div class="stekdialog">
-                                <button aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
-                                <h3>Plantnaam</h3>
-                                <img src="assets/stekje4.jpeg" alt="Plantnaam">
+                                <button class="dialogbutton" aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
+                                <h3>Longkruid</h3>
+                                <img src="assets/stekje4.jpeg" alt="Longkruid">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium.</p>
                             </div>  
                         </form>
                     </dialog>
-                    <button class="dialogbtn" onclick="dialog4.showModal()" aria-label="meer info over de longkruid"><img src="assets/logo-no-background.png" alt="meerinfo"></button>
+                    <button class="dialogbtn" onclick="dialog4.showModal()" aria-label="meer info over de longkruid"><img src="assets/logo-no-background.png" alt="meer  info"></button>
                 </div> 
 
                 <div>
@@ -106,14 +114,14 @@
                     <dialog id="dialog5">
                         <form method="dialog">
                             <div class="stekdialog">
-                                <button aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
-                                <h3>Plantnaam</h3>
-                                <img src="assets/stekje5.jpeg" alt="Plantnaam">
+                                <button class="dialogbutton" aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
+                                <h3>Bieslook</h3>
+                                <img src="assets/stekje5.jpeg" alt="Bieslook">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium.</p>
                             </div>  
                         </form>
                     </dialog>
-                    <button class="dialogbtn" onclick="dialog5.showModal()" aria-label="meer info over de bieslook"><img src="assets/logo-no-background.png" alt="meerinfo"></button>
+                    <button class="dialogbtn" onclick="dialog5.showModal()" aria-label="meer info over de bieslook"><img src="assets/logo-no-background.png" alt="meer info"></button>
                 </div> 
                  
                 <div>
@@ -122,14 +130,14 @@
                     <dialog id="dialog6">
                         <form method="dialog">
                             <div class="stekdialog">
-                                <button aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
-                                <h3>Plantnaam</h3>
-                                <img src="assets/stekje6.jpeg" alt="Plantnaam">
+                                <button class="dialogbutton" aria-label="terug naar beschikbare stekjes"><img src="assets/greenX.png" alt="terugknop"></button>
+                                <h3>Zonnebloem</h3>
+                                <img src="assets/stekje6.jpeg" alt="Zonnebloem">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium.</p>
                             </div>  
                         </form>
                     </dialog>
-                    <button class="dialogbtn" onclick="dialog6.showModal()" aria-label="meer info over de zonnebloem"><img src="assets/logo-no-background.png" alt="meerinfo"></button>
+                    <button class="dialogbtn" onclick="dialog6.showModal()" aria-label="meer info over de zonnebloem"><img src="assets/logo-no-background.png" alt="meer info"></button>
                 </div> 
             </section>
 
@@ -150,12 +158,12 @@
         <section class="content">
 
             <article>
-                <h2>Over Buurtcampus Oost</h2>
+                <h2>Over Ons</h2>
                 <p>De Buurtcampus Oost heeft als doel Amsterdam-Oost duurzamer, inclusiever en gezonder te maken. Plant Swap Amsterdam zorgt ervoor dat plantenliefhebbers elkaar ontmoeten in de bibliotheek. Daarnaast hebben planten in huis een positief effect op je lichamelijke en geestelijke gezondheid. Veel mensen weten niet goed hoe ze voor planten moeten zorgen en kopen nieuwe als ze dood gaan. In het kader van duurzaamheid, gezondheid en meer sociale connectie, is PlantSwap Amsterdam een plek van sociale ontmoeting, waar mensen samen leren over planten.</p>
             </article>
             
             <article>
-                <h2>Doneren</h2>
+                <h2>Plantje Doneren</h2>
                 <p>Heb jij (net als wij) teveel planten in huis? Wij zijn super blij als je stekjes komt doneren. Je kunt ze aanmelden via de app en daarna neerzetten in de PlantSwap kast in de bieb.</p>
             </article>
 
@@ -179,6 +187,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pulvinar tristique dolor consequat sagittis. Ut non volutpat neque. Vivamus dapibus at mi eget auctor. Phasellus dignissim luctus tellus, et molestie tellus tempus quis. Proin congue egestas arcu ac pretium. Integer vitae ornare ipsum, non efficitur massa. Donec gravida rutrum diam.</p>
             </article>
 
+        </section>
+
+        <section id="buurtcampus_googlemaps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.6761957784674!2d4.92404451559515!3d52.358157855963306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60976cd336d71%3A0x6610b420a3c48f0e!2sLinnaeusstraat%2044%2C%201092%20CL%20Amsterdam!5e0!3m2!1snl!2snl!4v1667915508745!5m2!1snl!2snl" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     
 
